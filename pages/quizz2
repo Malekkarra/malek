@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../style/quizz-style.css">
+</head>
+<body>
+    script data-cfasync="false" src="../../../cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="js/bootstrap.min.js"></script>
+    <script src="js/pages-switcher.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/validator.js"></script>
+    <script src="js/jquery.shuffle.min.js"></script>
+    <script src="js/masonry.pkgd.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/tilt.jquery.min.js"></script>
+    <script src="js/jquery.hoverdir.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Demo Color changer Script -->
+    <script src="preview/lmpixels-demo-panel.js"></script
+    <section class="pt-page pt-page-3" data-id="quiz">
+        <div class="border-block-top-110"></div>
+        <div>
+          <div class="section-title-block">
+            <div class="section-title-wrapper" style="text-align:left;">
+              <h2 class="section-title">quiz</h2>
+              <h5 class="section-description" style="margin-bottom: 16px;">bonne chance</h5>
+              
+              <div>
+                <form id="form" method="post" class="row" style="align-items: center;">
+
+                  <div class="col-4">
+                    <div>
+                      <p>Qu’est-ce que l’algophobie ?</p>
+                      <input type="radio" name="q1" value="1">La peur de la douleur<br>
+                      <input type="radio" name="q1" value="2">La peur du noir <br>
+                      <input type="radio" name="q1" value="3">La peur de vieillir<br>
+                      <input type="radio" name="q1" value="4">La peur de mourir<br>
+                    </div>
+                  
+                    <div>
+                      <p>Qu’est-ce que l’autophobie ?</p>
+                      <input type="radio" name="q2" value="1">La peur du vide<br>
+                      <input type="radio" name="q2" value="2">La peur des serpents <br>
+                      <input type="radio" name="q2" value="3">La peur de l’avion <br>
+                      <input type="radio" name="q2" value="4">La peur de la solitude <br>
+                    </div>
+                    <div>
+                      <p> Comment se nomme la peur de la foule ?</p>
+                      <input type="radio" name="q3" value="1">L’agoraphobie<br>
+                      <input type="radio" name="q3" value="2">La foulophobie <br>
+                      <input type="radio" name="q3" value="3">La basophobie <br>
+                      <input type="radio" name="q3" value="4">La claustrophobie <br>
+                    </div>
+
+                    <div>
+                      <p>Qu’est-ce que la coulrophobie ?
+                        
+                        
+                        
+                        </p>
+                      <input type="radio" name="q4" value="1">La peur du vide <br>
+                      <input type="radio" name="q4" value="2">La peur des clowns <br>
+                      <input type="radio" name="q4" value="3">La peur de l’orage<br>
+                      <input type="radio" name="q4" value="4">La peur des animaux <br>
+                    </div>
+                  </div>
+                  <div class="col-4">
+
+                  
+                    <div>
+                      <p>Comment se nomme la peur du noir ?
+                        
+                        
+                        
+                      </p>
+                      <input type="radio" name="q5" value="1">La sombrophobie <br>
+                      <input type="radio" name="q5" value="2">La scopophobie <br>
+                      <input type="radio" name="q5" value="3">La nyctophobie <br>
+                      <input type="radio" name="q5" value="4">La glossophobie<br>
+                    </div>
+
+                    <div>
+                      <p>Qu’est-ce que la phobophobie ?
+                        
+                        
+                        
+                        </p>
+                      <input type="radio" name="q6" value="1">La peur d’avoir peur <br>
+                      <input type="radio" name="q6" value="2">La peur des masques <br>
+                      <input type="radio" name="q6" value="3">La peur de manger<br>
+                      <input type="radio" name="q6" value="4">La peur des enfants<br>
+                    </div>
+
+                    <div>
+                      <p> Comment se nomme la peur de mourir ?</p>
+                      <input type="radio" name="q7" value="1">La maladophobie<br>
+                      <input type="radio" name="q7" value="2">La létophobie<br>
+                      <input type="radio" name="q7" value="3">La thanatophobie <br>
+                      <input type="radio" name="q7" value="4">L’hylophobie<br>
+                    </div>
+
+                    <div>
+                      <p>Qu’est-ce que la théophobie ?
+                        
+                        
+                        
+                        </p>
+                      <input type="radio" name="q8" value="1">La peur d’avoir peur <br>
+                      <input type="radio" name="q8" value="2">La peur des monstres <br>
+                      <input type="radio" name="q8" value="3">La peur de Dieu<br>
+                      <input type="radio" name="q8" value="4">La peur des animaux <br>
+                    </div>
+                  </div>
+                   <div class="col-md-4">
+                    <div>
+                      <p>Qu’est-ce que l’apiphobie ?
+                        
+                        
+                        
+                        </p>
+                      <input type="radio" name="q9" value="1">La peur de la solitude <br>
+                      <input type="radio" name="q9" value="2">La peur des abeilles<br>
+                      <input type="radio" name="q9" value="3">La peur des chiens<br>
+                      <input type="radio" name="q9" value="4">La peur des nuages<br>
+                    </div>
+
+
+                    <div>
+                      <p>Comment se nomme la peur de se dénuder ?
+                        
+                        
+                        
+                        </p>
+                      <input type="radio" name="q10" value="1">L’androphobie <br>
+                      <input type="radio" name="q10" value="2">La gymnophobie <br>
+                      <input type="radio" name="q10" value="3">La nosophobie <br>
+                      <input type="radio" name="q10" value="4">La nymphophobie<br>
+                    </div>
+
+                    <div>
+                      <p>Qu’est-ce que la pantophobie ?
+                        
+                        
+                        
+                       </p>
+                      <input type="radio" name="q11" value="1">La peur de pleurer <br>
+                      <input type="radio" name="q11" value="2">La peur des éclairs<br>
+                      <input type="radio" name="q11" value="3">La peur de tout <br>
+                      <input type="radio" name="q11" value="4"> La peur des chats<br>
+                    </div>
+
+                    <div>
+                      <p>En psychiatrie, la peur morbide des cadavres : 
+                        
+                        
+                        
+                       </p>
+                      <input type="radio" name="q123" value="1">Cadaphobie <br>
+                      <input type="radio" name="q12" value="2">Cadaphobie<br>
+                      <input type="radio" name="q12" value="3">Necrophobie<br>
+                      <input type="radio" name="q12" value="4"> Agoraphobie<br>
+                    </div>
+                    
+                   
+
+                
+                  <button type="submit">Envoyer</button>
+                </form>
+              </div>
+
+            </div>
+          </div>
+          </div>
+          </div>
+          </section>*
+          <script type="text/javascript">
+            const form = document.getElementById('form');
+          
+            form.addEventListener('submit', event => {
+              event.preventDefault();
+              submit()
+            });
+            function submit() {
+              let form = document.forms.form;
+              let formData = new FormData(form)
+              let score = 0;
+              if(formData.get('q1') == "1") score++
+              if(formData.get('q2') == "4") score++
+              if(formData.get('q3') == "1") score++
+              if(formData.get('q4') == "2") score++
+              if(formData.get('q5') == "1") score++
+              if(formData.get('q6') == "3") score++
+              if(formData.get('q7') == "4") score++
+              if(formData.get('q8') == "2") score++
+              if(formData.get('q9') == "3") score++
+              if(formData.get('q10') == "1") score++
+              if(formData.get('q11') == "3") score++
+              if(formData.get('q12') == "3") score++
+      
+      
+          
+              alert("Vous avez accumuler : " + score + " points")
+              
+            }
+          </script>
+</body>
